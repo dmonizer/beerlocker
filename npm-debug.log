@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'passport-htt',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json beerlocker@ No description
+5 warn package.json beerlocker@ No repository field.
+6 warn package.json beerlocker@ No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'passport-htt', null ]
+9 verbose cache add name=undefined spec="passport-htt" args=["passport-htt",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'passport-htt',
+10 verbose parsed url   path: 'passport-htt',
+10 verbose parsed url   href: 'passport-htt' }
+11 silly lockFile 94c62bc0-passport-htt passport-htt
+12 verbose lock passport-htt /home/ubuntu/.npm/94c62bc0-passport-htt.lock
+13 silly lockFile 94c62bc0-passport-htt passport-htt
+14 silly lockFile 94c62bc0-passport-htt passport-htt
+15 verbose addNamed [ 'passport-htt', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile a561bdad-passport-htt passport-htt@
+18 verbose lock passport-htt@ /home/ubuntu/.npm/a561bdad-passport-htt.lock
+19 silly addNameRange { name: 'passport-htt', range: '*', hasData: false }
+20 verbose request where is /passport-htt
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 738b32b618721ea9
+23 verbose url raw /passport-htt
+24 verbose url resolving [ 'https://registry.npmjs.org/', './passport-htt' ]
+25 verbose url resolved https://registry.npmjs.org/passport-htt
+26 verbose request where is https://registry.npmjs.org/passport-htt
+27 info trying registry request attempt 1 at 08:11:25
+28 http GET https://registry.npmjs.org/passport-htt
+29 http 404 https://registry.npmjs.org/passport-htt
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Thu, 17 Sep 2015 08:11:26 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1442477485.751896,VS0,VE742' } ]
+31 silly lockFile a561bdad-passport-htt passport-htt@
+32 silly lockFile a561bdad-passport-htt passport-htt@
+33 error 404 Not Found
+33 error 404
+33 error 404 'passport-htt' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'beerlocker'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Linux 3.14.13-c9
+35 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "passport-htt" "--save"
+36 error cwd /home/ubuntu/workspace/beerlocker
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
